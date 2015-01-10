@@ -1,4 +1,4 @@
-app.controller('TownsCtrl', ['$scope', function ($scope) {
+app.controller('TownsCtrl', ['$scope', 'townsData',function ($scope, townsData) {
     townsData.getTowns()
         .$promise
         .then(function (data) {
