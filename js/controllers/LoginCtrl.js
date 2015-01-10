@@ -1,3 +1,3 @@
-/**
- * Created by user on 10.01.2015.
- */
+app.controller('LoginCtrl', ['$scope', function($scope){
+
+}]);

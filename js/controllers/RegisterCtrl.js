@@ -1,3 +1,10 @@
-/**
- * Created by user on 10.01.2015.
- */
+app.controller('RegisterCtrl', ['$scope', 'townsData', function($scope, townsData){
+    townsData.getTowns()
+        .$promise
+        .then(function (data){
+            $scope.towns = data;
+            console.log(data);
+        });
+
+    
+}]);
