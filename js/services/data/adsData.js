@@ -4,7 +4,7 @@ var resource = $resource(baseServiceUrl + 'ads:adId', {adId: '@id'}, {
 });
 
     function getPublicAds(){
-        return resource.query();
+        return resource.get();
     }
 
     function editAd(adId, ad){
