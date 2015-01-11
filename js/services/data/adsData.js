@@ -3,8 +3,8 @@ var resource = $resource(baseServiceUrl + 'ads:adId', {adId: '@id'}, {
     update: {method: 'PUT'}
 });
 
-    function getPublicAds(){
-        return resource.get();
+    function getPublicAds(filterParams){
+        return resource.get(filterParams);
     }
 
     function editAd(adId, ad){

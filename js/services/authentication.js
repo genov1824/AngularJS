@@ -29,7 +29,7 @@ app.factory('authentication', function () {
     }
 
     function isLoggedIn(){
-        return !!getUserData()
+        return getUserData()
     }
 
     return {
