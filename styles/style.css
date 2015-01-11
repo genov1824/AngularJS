@@ -1,3 +1,6 @@
+body{
+    background-color: #41ffaa;
+}
 header{
     height: 80px;
     padding: 1px;
@@ -14,7 +17,6 @@ header{
     background: linear-gradient(to right,  #a7c7dc 0%,#85b2d3 45%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7c7dc', endColorstr='#85b2d3',GradientType=1 ); /* IE6-9 */
 }
-
 footer{
     height: 80px;
     padding-top: 40px;
@@ -32,21 +34,38 @@ footer{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7c7dc', endColorstr='#85b2d3',GradientType=1 ); /* IE6-9 */
 }
 #leftSideBar {
+    padding-left: 15px;
+     margin: 15px;
+     border-radius: 15px;
+     background-color: #a7c7dc;
+ }
+
+#loggedInSidebar {
+    padding-left: 15px;
     margin: 15px;
-    background-color: #003300;
+    background-color: #a7c7dc;
+    font-size: 20px;
+    border-radius: 15px;
 }
 
 #public-ads >ul >li {
-
+    padding-left: 15px;
+    border-radius: 15px;
     margin: 15px;
-    background-color: blue;
+    background-color: #a7c7dc;
 }
 
 #categories{
+
+    padding-left: 15px;
+    border-radius: 15px;
     margin:15px;
-    background-color: #ffff00;
+    background-color: #a7c7dc;
 }
 #towns{
+
+    padding-left: 15px;
+    border-radius: 15px;
     margin: 15px;
-    background-color: darkmagenta;
+    background-color: #a7c7dc;
 }
