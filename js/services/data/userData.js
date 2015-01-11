@@ -20,7 +20,7 @@ app.factory('userData', ['$resource', 'baseServiceUrl', 'authentication', functi
         return resource;
     }
 
-    function logoutUser() {
+    function logoutUser(user) {
         return $resource(baseServiceUrl + 'user/logout')
             .save(user)
             .$promise

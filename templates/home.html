@@ -1,5 +1,5 @@
 <header>
-    <h1>Ads - {{pageTitle}}<a>logout</a></h1>
+    <h1>Ads - {{pageTitle}}<div id="logout" ng-if="isLoggedIn"><a onclick="localStorage.clear()">Logout</a></div></h1>
 </header>
 <div id="wrapper">
     <div class="row">

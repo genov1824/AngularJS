@@ -33,6 +33,11 @@ footer{
     background: linear-gradient(to right,  #a7c7dc 0%,#85b2d3 45%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7c7dc', endColorstr='#85b2d3',GradientType=1 ); /* IE6-9 */
 }
+ul
+{
+    list-style-type: none;
+}
+
 #leftSideBar {
     padding-left: 15px;
      margin: 15px;
@@ -68,4 +73,8 @@ footer{
     border-radius: 15px;
     margin: 15px;
     background-color: #a7c7dc;
+}
+
+#logout{
+    float: right;
 }

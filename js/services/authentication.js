@@ -20,7 +20,7 @@ app.factory('authentication', function () {
     }
 
     function removeUser(){
-        localStorage.removeItem(key);
+        return localStorage.removeItem(key);
     }
 
     function isAdmin(){
