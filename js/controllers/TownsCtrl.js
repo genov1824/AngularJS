@@ -5,7 +5,7 @@ app.controller('TownsCtrl', ['$scope', '$rootScope', 'townsData', 'filter', func
             $scope.towns = data;
         });
 
-    $scope.townCliked = function townClicked(town){
+    $scope.townClicked = function (town){
         filter.filterByTown(town);
         $rootScope.$broadcast('townClicked', town);
     }
