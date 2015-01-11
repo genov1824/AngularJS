@@ -29,7 +29,6 @@ app.factory('authentication', function () {
     }
 
     function isLoggedIn(){
-        console.log(24);
         return !!getUserData()
     }
 
