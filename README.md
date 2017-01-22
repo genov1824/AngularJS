@@ -1,4 +1,9 @@
-# Github commits convention:
+# Current Version
+```
+1.1.X
+```
+
+### Github commits convention:
 
 ## When we have new methods or files:
 ```
