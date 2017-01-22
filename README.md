@@ -20,4 +20,4 @@
 * createUsernamePassword - add encoding for create username and save it to database
 ```
 
-## Every time when any of the above actions occur should be new commit.
+### Every time when any of the above actions occur should be new commit.
