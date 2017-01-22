@@ -26,3 +26,4 @@
 ```
 
 ### Every time when any of the above actions occur should be new commit.
+1
